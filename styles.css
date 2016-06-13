@@ -1,0 +1,146 @@
+/* Styles for the page body */
+body {
+  background: url(background.png);
+  background-size: cover;
+  width: 100%;
+  min-width: 1000px;
+  max-width: 1400px;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+/* Styles for the headers */
+section h2 {
+  border: 3px groove rgb(139, 203, 224);
+  background-color: rgb(192, 226, 237);
+  color: navy;
+  font-size: 1.3em;
+  letter-spacing: 0.4em;
+  display: block;
+  line-height: 1.8em;
+  text-indent: 1em;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#links {
+  border: 3px groove rgb(139, 203, 224);
+  background-color: rgb(192, 226, 237);
+  color: navy;
+  font-size: 1.3em;
+  letter-spacing: 0.4em;
+  display: block;
+  line-height: 1.8em;
+  text-indent: 1em;
+  text-align: center;
+  font-family: cursive;
+}
+
+/* Styles for the title */
+header {
+  color: navy;
+  text-align: center;
+  margin: 0px auto;
+}
+
+/* Styles for navigation list */
+nav ul {
+  border: 3px groove rgb(139, 203, 224);
+  background-color: rgb(192, 226, 237);
+  line-height: 3.5em;
+  list-style-type: none;
+  padding-left: 0.5em;
+  margin-top: 5em;
+  text-align: center;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+nav ul li:first-of-type {
+  text-transform: uppercase;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  background-color: rgb(139, 203, 224);
+}
+
+a:active {
+  color: purple;
+}
+
+/* Styles for section */
+section p{
+  color: navy;
+  font-size: 1.5em;
+  width: 590px;
+  float: left;
+}
+
+section {
+  width: 590px;
+  float: left;
+}
+
+section img {
+  float: none;
+  margin: 0px auto;
+}
+
+/* Styles for table */
+table.comparison {
+  border: 10px outset rgb(192, 226, 237);
+  border-collapse: collapse;
+  font-family: Arial, Halvetica, sans-serif;
+  font-size: 1em;
+  width: 100%;
+}
+
+table.comparison th, table.comparison td {
+  border: 1px solid gray;
+}
+
+/* Styles for table header */
+table.comparison thead {
+  background-color: rgb(139, 203, 224);
+  color: navy;
+}
+
+table.comparison thead tr {
+  height: 50px;
+}
+
+/* Styles for table body */
+table.comparison tbody tr {
+  height: 40px;
+}
+
+table.comparison tbody td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+/* Styles for the first column */
+table. comparison col.firstCol {
+  background-color: rgb(192, 226, 237);
+  width: 7%;
+}
+
+/* Styles for the remaining columns */
+table.comparison col.methodsCol {
+  width: 13%;
+}
+
+/* Styles for table caption */
+table.comparison caption {
+  caption-side: bottom;
+  text-align: right;
+}
