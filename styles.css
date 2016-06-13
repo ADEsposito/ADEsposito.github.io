@@ -23,6 +23,12 @@ section h2 {
   font-family: sans-serif;
 }
 
+@media screen and (max-width: 509px) {
+  h1{
+    font-size: medium;
+  }
+}
+
 #links {
   border: 3px groove rgb(139, 203, 224);
   background-color: rgb(192, 226, 237);
@@ -34,6 +40,12 @@ section h2 {
   text-indent: 1em;
   text-align: center;
   font-family: cursive;
+}
+
+@media screen and (max-width: 509px) {
+  #links{
+    font-size: medium;
+  }
 }
 
 /* Styles for the title */
