@@ -18,4 +18,6 @@
 * JavaScript
 * jquery
 * canvas
- 
+
+# Screenshots
+![screenshot1] (https://github.com/ADEsposito/ADEsposito.github.io/blob/master/Project1/Screenshot_Final_Score_Screen.png) 
