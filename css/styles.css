@@ -1,0 +1,50 @@
+body {
+  background-image: url("http://abali.ru/wp-content/uploads/2014/01/krov_na_stene.jpg");
+  font-family: 'Black Ops One', cursive;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+#image {
+  visibility: hidden;
+}
+
+#canvas-container {
+  width: 100%;
+  text-align: center;
+}
+
+#canvas {
+  border: 1px solid white;
+  display: inline;
+}
+
+#shots {
+  color: lime;
+  float: left;
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  font-size: x-large;
+}
+
+#hits {
+  color: lime;
+  float: left;
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  font-size: x-large;
+}
+
+#score {
+  color: lime;
+  float: right;
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  font-size: x-large;
+}
