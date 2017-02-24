@@ -20,4 +20,7 @@
 * canvas
 
 # Screenshots
-![screenshot1] (https://github.com/ADEsposito/ADEsposito.github.io/blob/master/Project1/Screenshot_Final_Score_Screen.png) 
+![Start Screen] (https://github.com/ADEsposito/ADEsposito.github.io/blob/master/Project1/Screenshot_Starting_Screen.png)
+
+
+![Final Score Screen] (https://github.com/ADEsposito/ADEsposito.github.io/blob/master/Project1/Screenshot_Final_Score_Screen.png)
