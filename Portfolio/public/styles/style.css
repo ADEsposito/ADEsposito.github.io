@@ -1,6 +1,6 @@
 body {
   background-image: url('../images/background.png');
-  display: inline-block;
+  display: block;
   left: 0;
   top: 0;
   width: 100%;
@@ -115,9 +115,8 @@ h4 {
   padding-top: 200px;
 }
 #portfolio img {
-  height: 50%;
-  width: 50%;
-  padding-left: 20%;
+  width: 100%;
+  text-align: center;
   padding-bottom: 50px;
 }
 #portfolio h4 {
@@ -132,22 +131,34 @@ h4 {
   padding-left: 35%;
 }
 #portfolio #webDev #zombie p {
-  padding-left: 36%;
-  width: 100%;
+  padding-left: 33%;
+  width: 75%;
+  text-align: left;
+}
+#portfolio #webDev #doggy #doggyName {
+  padding-left: 20%;
 }
 #portfolio #webDev #doggy p {
-  padding-left: 30%;
-  width: 100%;
+  padding-left: 33%;
+  width: 75%;
+  text-align: left;
+}
+#portfolio #webDev #eat #eatName {
+  padding-left: 40%;
 }
 #portfolio #webDev #eat p {
-  padding-left: 40%;
-  width: 100%;
+  padding-left: 33%;
+  width: 75%;
+  text-align: left;
 }
 #portfolio #autoCAD h4 {
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
   padding-left: 40%;
   padding-top: 200px;
+}
+#portfolio #autoCAD #lastImage {
+  margin-left: 50%;
 }
 footer {
   background-color: #ddd;
